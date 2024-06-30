@@ -92,13 +92,14 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  /*eu adicionei borda no botton*/
-  border: 1px solid var(--text-color);
+  animation: slide-out 0.2s;
 }
 
 .Light #switch button {
+  /* removido devido a animation
   right: 0;
-  left: initial;
+  left: initial; */
+  animation: slide-in 0.2s forwards;
 }
 
 #switch span {
@@ -176,5 +177,23 @@ footer {
 
   .Light {
     --bg-url: url(/assets/assets/bg-desktop-light.jpg);
+  }
+}
+/* animation botton*/
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
