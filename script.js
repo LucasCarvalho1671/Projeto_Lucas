@@ -13,7 +13,7 @@ function toggleMode() {
     img.setAttribute("alt", "Foto guitarra")
   } else {
     //se estiver sem o Light mode mander a imagem amarela
-    img.setAttribute("src", "./assets/assets/Lucas.jpeg")
+    img.setAttribute("src", "./assets/assets/Lucas.png")
     img.setAttribute("alt", "Foto do Lucas ")
   }
 }

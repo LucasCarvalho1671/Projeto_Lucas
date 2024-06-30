@@ -61,7 +61,7 @@ body * {
 #profile img {
   /*display: block; /* margin: auto so funciona em elemento block*/
   /*div elemento block -- img elemento inline */
-  width: 112px;
+  width: 113px ;
   /*margin: auto;*/
   aspect-ratio: 1 / 1;
   object-fit: cover;
