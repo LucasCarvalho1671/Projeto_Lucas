@@ -35,6 +35,7 @@ body {
   /*Agrupamento*/
   /*background: color image repeat position/size*/
   background: var(--bg-url) top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -166,4 +167,14 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(/assets/assets/bg-desktop.jpg);
+  }
+
+  .Light {
+    --bg-url: url(/assets/assets/bg-desktop-light.jpg);
+  }
 }
