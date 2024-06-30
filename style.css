@@ -63,6 +63,9 @@ body * {
   /*div elemento block -- img elemento inline */
   width: 112px;
   /*margin: auto;*/
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 #profile p {
